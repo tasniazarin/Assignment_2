@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radioGroup" type="id" />
+    <item name="checkBoxBass" type="id" />
+    <item name="checkBoxTreble" type="id" />
+    <item name="nextButton" type="id" />
+    <item name="seekBarVolume" type="id" />
+    <item name="ratingBar" type="id" />
+    <item name="switchHighQuality" type="id" />
+    <item name="backButton" type="id" />
+</resources>

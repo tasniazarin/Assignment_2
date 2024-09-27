@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the music type"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <!-- Radio Group for Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioClassic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic Music" />
+
+        <RadioButton
+            android:id="@+id/radioPop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop Music" />
+
+        <RadioButton
+            android:id="@+id/radioRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rock Music" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the instrument"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <!-- Checkboxes -->
+    <CheckBox
+        android:id="@+id/checkBoxBass"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Add Bass  "
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTreble"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:text="Add Treble  "
+        android:textSize="15dp" />
+
+    <!-- Button to Go to Second Page -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music On/off"
+        android:textColor="#673AB7"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switchHighQuality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <!-- SeekBar -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Volume Control"
+        android:textColor="#673AB7"
+        android:paddingTop="25dp"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:max="100" />
+
+    <!-- RatingBar -->
+
+
+
+
+
+    <!-- RatingBar -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Rate the music performance"
+        android:textColor="#673AB7"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5" />
+
+
+
+    <!-- Button to Go Back to First Page -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back" />
+
+</LinearLayout>
